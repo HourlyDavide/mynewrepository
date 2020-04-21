@@ -1,0 +1,8 @@
+{
+  "runtimeOptions": {
+    "additionalProbingPaths": [
+      "C:\\Users\\davym\\.dotnet\\store\\|arch|\\|tfm|",
+      "C:\\Users\\davym\\.nuget\\packages"
+    ]
+  }
+}
