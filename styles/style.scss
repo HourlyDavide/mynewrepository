@@ -1,6 +1,16 @@
 
+$primaryBtn : rgb(0, 217, 255);
+
 header {
     background: lightblue;
     display: flex;
     justify-content: center;
+}
+
+header button {
+    background: yellow;
+}
+
+.contact button {
+    background: red;
 }
