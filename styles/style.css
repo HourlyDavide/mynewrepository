@@ -1,18 +1,31 @@
-header {
-  background: lightblue;
+header, .contact {
+  height: 100vh;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  background: red;
+  color: blue;
 }
 
-header button {
-  background: yellow;
+header button, .contact button {
+  background: #00d9ff;
 }
 
-.contact button {
-  background: black;
+header button::after, .contact button::after {
+  content: "Helloooo";
+}
+
+.contact {
+  background: lightcoral;
 }
 /*# sourceMappingURL=style.css.map */
